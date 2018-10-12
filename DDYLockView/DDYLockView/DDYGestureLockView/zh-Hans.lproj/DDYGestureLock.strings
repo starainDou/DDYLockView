@@ -15,4 +15,5 @@
 "LockLoginDraw" = "请输入手势密码";
 "LockLoginError" = "手势密码输入错误";
 "LockLoginForget" = "忘记手势密码";
-"LockLogin"
+"LockLoginTouchID" = "TouchID解锁";
+"LockLoginFaceID" = "FaceID解锁";
