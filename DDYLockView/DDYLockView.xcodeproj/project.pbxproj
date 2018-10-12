@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A469E9132170A7CA00174EAD /* DDYLocalAuthTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E90F2170A7CA00174EAD /* DDYLocalAuthTool.m */; };
+		A469E9142170A7CA00174EAD /* DDYLocalAuth.strings in Resources */ = {isa = PBXBuildFile; fileRef = A469E9102170A7CA00174EAD /* DDYLocalAuth.strings */; };
 		A4AA95FB21702FDF00902BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AA95EF21702FDF00902BBD /* AppDelegate.m */; };
 		A4AA95FC21702FDF00902BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AA95F021702FDF00902BBD /* LaunchScreen.storyboard */; };
 		A4AA95FE21702FDF00902BBD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4AA95F321702FDF00902BBD /* Info.plist */; };
 		A4AA960021702FDF00902BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AA95F621702FDF00902BBD /* main.m */; };
 		A4AA960121702FDF00902BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AA95F821702FDF00902BBD /* ViewController.m */; };
-		A4AA9609217030A300902BBD /* DDYLanguageSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9606217030A300902BBD /* DDYLanguageSelectVC.m */; };
-		A4AA960A217030A300902BBD /* DDYLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9608217030A300902BBD /* DDYLanguageTool.m */; };
+		A4AA9615217035D400902BBD /* DDYGestureLock.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4AA9617217035D400902BBD /* DDYGestureLock.strings */; };
+		A4AA961B217035F800902BBD /* DDYNumberLock.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4AA961D217035F800902BBD /* DDYNumberLock.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A469E90E2170A7CA00174EAD /* DDYLocalAuthTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDYLocalAuthTool.h; sourceTree = "<group>"; };
+		A469E90F2170A7CA00174EAD /* DDYLocalAuthTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDYLocalAuthTool.m; sourceTree = "<group>"; };
+		A469E9112170A7CA00174EAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDYLocalAuth.strings; sourceTree = "<group>"; };
+		A469E9122170A7CA00174EAD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDYLocalAuth.strings"; sourceTree = "<group>"; };
 		A4AA95D721702F7600902BBD /* DDYLockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDYLockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AA95EE21702FDF00902BBD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4AA95EF21702FDF00902BBD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -25,10 +31,10 @@
 		A4AA95F621702FDF00902BBD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4AA95F721702FDF00902BBD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A4AA95F821702FDF00902BBD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A4AA9605217030A300902BBD /* DDYLanguageSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDYLanguageSelectVC.h; sourceTree = "<group>"; };
-		A4AA9606217030A300902BBD /* DDYLanguageSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDYLanguageSelectVC.m; sourceTree = "<group>"; };
-		A4AA9607217030A300902BBD /* DDYLanguageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDYLanguageTool.h; sourceTree = "<group>"; };
-		A4AA9608217030A300902BBD /* DDYLanguageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDYLanguageTool.m; sourceTree = "<group>"; };
+		A4AA9616217035D400902BBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDYGestureLock.strings; sourceTree = "<group>"; };
+		A4AA9618217035D500902BBD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDYGestureLock.strings"; sourceTree = "<group>"; };
+		A4AA961C217035F800902BBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDYNumberLock.strings; sourceTree = "<group>"; };
+		A4AA961E217035FF00902BBD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDYNumberLock.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A469E90D2170A7CA00174EAD /* DDYLocalAuth */ = {
+			isa = PBXGroup;
+			children = (
+				A469E90E2170A7CA00174EAD /* DDYLocalAuthTool.h */,
+				A469E90F2170A7CA00174EAD /* DDYLocalAuthTool.m */,
+				A469E9102170A7CA00174EAD /* DDYLocalAuth.strings */,
+			);
+			path = DDYLocalAuth;
+			sourceTree = "<group>";
+		};
 		A4AA95CE21702F7500902BBD = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +77,7 @@
 		A4AA95D921702F7600902BBD /* DDYLockView */ = {
 			isa = PBXGroup;
 			children = (
-				A4AA9604217030A300902BBD /* DDYLanguageTool */,
+				A469E90D2170A7CA00174EAD /* DDYLocalAuth */,
 				A4AA960321702FF100902BBD /* DDYNumberLockView */,
 				A4AA960221702FE100902BBD /* DDYGestureLockView */,
 				A4AA95ED21702FDF00902BBD /* System */,
@@ -86,6 +102,7 @@
 		A4AA960221702FE100902BBD /* DDYGestureLockView */ = {
 			isa = PBXGroup;
 			children = (
+				A4AA9617217035D400902BBD /* DDYGestureLock.strings */,
 			);
 			path = DDYGestureLockView;
 			sourceTree = "<group>";
@@ -93,19 +110,9 @@
 		A4AA960321702FF100902BBD /* DDYNumberLockView */ = {
 			isa = PBXGroup;
 			children = (
+				A4AA961D217035F800902BBD /* DDYNumberLock.strings */,
 			);
 			path = DDYNumberLockView;
-			sourceTree = "<group>";
-		};
-		A4AA9604217030A300902BBD /* DDYLanguageTool */ = {
-			isa = PBXGroup;
-			children = (
-				A4AA9605217030A300902BBD /* DDYLanguageSelectVC.h */,
-				A4AA9606217030A300902BBD /* DDYLanguageSelectVC.m */,
-				A4AA9607217030A300902BBD /* DDYLanguageTool.h */,
-				A4AA9608217030A300902BBD /* DDYLanguageTool.m */,
-			);
-			path = DDYLanguageTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +156,7 @@
 			knownRegions = (
 				en,
 				Base,
-				ja,
 				"zh-Hans",
-				"zh-Hant",
 			);
 			mainGroup = A4AA95CE21702F7500902BBD;
 			productRefGroup = A4AA95D821702F7600902BBD /* Products */;
@@ -168,8 +173,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AA961B217035F800902BBD /* DDYNumberLock.strings in Resources */,
 				A4AA95FC21702FDF00902BBD /* LaunchScreen.storyboard in Resources */,
+				A4AA9615217035D400902BBD /* DDYGestureLock.strings in Resources */,
 				A4AA95FE21702FDF00902BBD /* Info.plist in Resources */,
+				A469E9142170A7CA00174EAD /* DDYLocalAuth.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,10 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4AA960A217030A300902BBD /* DDYLanguageTool.m in Sources */,
+				A469E9132170A7CA00174EAD /* DDYLocalAuthTool.m in Sources */,
 				A4AA960121702FDF00902BBD /* ViewController.m in Sources */,
 				A4AA960021702FDF00902BBD /* main.m in Sources */,
-				A4AA9609217030A300902BBD /* DDYLanguageSelectVC.m in Sources */,
 				A4AA95FB21702FDF00902BBD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,12 +198,39 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A469E9102170A7CA00174EAD /* DDYLocalAuth.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A469E9112170A7CA00174EAD /* en */,
+				A469E9122170A7CA00174EAD /* zh-Hans */,
+			);
+			name = DDYLocalAuth.strings;
+			sourceTree = "<group>";
+		};
 		A4AA95F021702FDF00902BBD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A4AA95F121702FDF00902BBD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A4AA9617217035D400902BBD /* DDYGestureLock.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AA9616217035D400902BBD /* en */,
+				A4AA9618217035D500902BBD /* zh-Hans */,
+			);
+			name = DDYGestureLock.strings;
+			sourceTree = "<group>";
+		};
+		A4AA961D217035F800902BBD /* DDYNumberLock.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AA961C217035F800902BBD /* en */,
+				A4AA961E217035FF00902BBD /* zh-Hans */,
+			);
+			name = DDYNumberLock.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -305,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -315,14 +349,15 @@
 		A4AA95EB21702F8500902BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DDYLockView/Info.plist;
+				DEVELOPMENT_TEAM = 23JJ7VRKJT;
+				INFOPLIST_FILE = "$(SRCROOT)/DDYLockView/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartmesh.smart.DDYLockView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartmesh.smart2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,14 +366,15 @@
 		A4AA95EC21702F8500902BBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DDYLockView/Info.plist;
+				DEVELOPMENT_TEAM = 23JJ7VRKJT;
+				INFOPLIST_FILE = "$(SRCROOT)/DDYLockView/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartmesh.smart.DDYLockView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartmesh.smart2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

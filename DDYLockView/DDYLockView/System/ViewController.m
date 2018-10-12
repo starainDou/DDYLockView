@@ -1,5 +1,4 @@
 #import "ViewController.h"
-#import "DDYLanguageSelectVC.h"
 
 #ifndef DDYTopH
 #define DDYTopH (self.navigationController.navigationBar.frame.size.height + [[UIApplication sharedApplication] statusBarFrame].size.height)
@@ -80,8 +79,7 @@
 
 
 - (void)changeLanguage {
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[[DDYLanguageSelectVC alloc] init]];
-    [self presentViewController:navi animated:YES completion:^{ }];
+    
 }
 
 @end

@@ -1,0 +1,18 @@
+/** 设置 */
+"LockSettingTitle" = "设置手势密码";
+"LockSettingDrawFirst" = "绘制解锁图案";
+"LockSettingDrawAgain" = "请再次绘制解锁图案";
+"LockSettingDrawLessTip" = "最少连接4个点，请重新输入";
+"LockSettingSuccess" = "设置成功";
+"LockSettingDifferent" = "与上次绘制不一致，请重新绘制";
+
+/** 验证 */
+"LockVerifyTitle" = "验证手势密码";
+"LockVerifyDrawOld" = "请输入原手势密码";
+
+/** 登录 */
+"LockLoginTitle" = "手势密码登录";
+"LockLoginDraw" = "请输入手势密码";
+"LockLoginError" = "手势密码输入错误";
+"LockLoginForget" = "忘记手势密码";
+"LockLogin"
