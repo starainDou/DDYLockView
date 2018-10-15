@@ -9,6 +9,21 @@
 /* Begin PBXBuildFile section */
 		A469E9132170A7CA00174EAD /* DDYLocalAuthTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E90F2170A7CA00174EAD /* DDYLocalAuthTool.m */; };
 		A469E9142170A7CA00174EAD /* DDYLocalAuth.strings in Resources */ = {isa = PBXBuildFile; fileRef = A469E9102170A7CA00174EAD /* DDYLocalAuth.strings */; };
+		A469E91E2174218600174EAD /* DDYGestureLockSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E91D2174218600174EAD /* DDYGestureLockSettingVC.m */; };
+		A469E9432174652A00174EAD /* DDYGestureCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E9422174652A00174EAD /* DDYGestureCircle.m */; };
+		A469E94621746CE100174EAD /* DDYGestureLockConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E94421746CE000174EAD /* DDYGestureLockConfig.m */; };
+		A469E9492174778F00174EAD /* DDYGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E9482174778F00174EAD /* DDYGestureLockView.m */; };
+		A469E94C217477AD00174EAD /* DDYGestureInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E94B217477AD00174EAD /* DDYGestureInfoView.m */; };
+		A469E96721749EE900174EAD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E94F21749EE900174EAD /* MASCompositeConstraint.m */; };
+		A469E96821749EE900174EAD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E95221749EE900174EAD /* MASConstraint.m */; };
+		A469E96921749EE900174EAD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E95421749EE900174EAD /* MASConstraintMaker.m */; };
+		A469E96A21749EE900174EAD /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E95621749EE900174EAD /* MASLayoutConstraint.m */; };
+		A469E96B21749EE900174EAD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E95A21749EE900174EAD /* MASViewAttribute.m */; };
+		A469E96C21749EE900174EAD /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E95C21749EE900174EAD /* MASViewConstraint.m */; };
+		A469E96D21749EE900174EAD /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E95E21749EE900174EAD /* NSArray+MASAdditions.m */; };
+		A469E96E21749EE900174EAD /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E96121749EE900174EAD /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		A469E96F21749EE900174EAD /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E96321749EE900174EAD /* View+MASAdditions.m */; };
+		A469E97021749EE900174EAD /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E96621749EE900174EAD /* ViewController+MASAdditions.m */; };
 		A4AA95FB21702FDF00902BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AA95EF21702FDF00902BBD /* AppDelegate.m */; };
 		A4AA95FC21702FDF00902BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AA95F021702FDF00902BBD /* LaunchScreen.storyboard */; };
 		A4AA95FE21702FDF00902BBD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4AA95F321702FDF00902BBD /* Info.plist */; };
@@ -23,6 +38,41 @@
 		A469E90F2170A7CA00174EAD /* DDYLocalAuthTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDYLocalAuthTool.m; sourceTree = "<group>"; };
 		A469E9112170A7CA00174EAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDYLocalAuth.strings; sourceTree = "<group>"; };
 		A469E9122170A7CA00174EAD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDYLocalAuth.strings"; sourceTree = "<group>"; };
+		A469E91C2174218600174EAD /* DDYGestureLockSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYGestureLockSettingVC.h; sourceTree = "<group>"; };
+		A469E91D2174218600174EAD /* DDYGestureLockSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYGestureLockSettingVC.m; sourceTree = "<group>"; };
+		A469E9412174652A00174EAD /* DDYGestureCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYGestureCircle.h; sourceTree = "<group>"; };
+		A469E9422174652A00174EAD /* DDYGestureCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYGestureCircle.m; sourceTree = "<group>"; };
+		A469E94421746CE000174EAD /* DDYGestureLockConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDYGestureLockConfig.m; sourceTree = "<group>"; };
+		A469E94521746CE100174EAD /* DDYGestureLockConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDYGestureLockConfig.h; sourceTree = "<group>"; };
+		A469E9472174778F00174EAD /* DDYGestureLockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYGestureLockView.h; sourceTree = "<group>"; };
+		A469E9482174778F00174EAD /* DDYGestureLockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYGestureLockView.m; sourceTree = "<group>"; };
+		A469E94A217477AD00174EAD /* DDYGestureInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYGestureInfoView.h; sourceTree = "<group>"; };
+		A469E94B217477AD00174EAD /* DDYGestureInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYGestureInfoView.m; sourceTree = "<group>"; };
+		A469E94E21749EE900174EAD /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		A469E94F21749EE900174EAD /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		A469E95021749EE900174EAD /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		A469E95121749EE900174EAD /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		A469E95221749EE900174EAD /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		A469E95321749EE900174EAD /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		A469E95421749EE900174EAD /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		A469E95521749EE900174EAD /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A469E95621749EE900174EAD /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A469E95721749EE900174EAD /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		A469E95821749EE900174EAD /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		A469E95921749EE900174EAD /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		A469E95A21749EE900174EAD /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		A469E95B21749EE900174EAD /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		A469E95C21749EE900174EAD /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		A469E95D21749EE900174EAD /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		A469E95E21749EE900174EAD /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		A469E95F21749EE900174EAD /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A469E96021749EE900174EAD /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		A469E96121749EE900174EAD /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A469E96221749EE900174EAD /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		A469E96321749EE900174EAD /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		A469E96421749EE900174EAD /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A469E96521749EE900174EAD /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		A469E96621749EE900174EAD /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		A4AA95D721702F7600902BBD /* DDYLockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDYLockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AA95EE21702FDF00902BBD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4AA95EF21702FDF00902BBD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +108,38 @@
 			path = DDYLocalAuth;
 			sourceTree = "<group>";
 		};
+		A469E94D21749EE900174EAD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				A469E94E21749EE900174EAD /* MASCompositeConstraint.h */,
+				A469E94F21749EE900174EAD /* MASCompositeConstraint.m */,
+				A469E95021749EE900174EAD /* MASConstraint+Private.h */,
+				A469E95121749EE900174EAD /* MASConstraint.h */,
+				A469E95221749EE900174EAD /* MASConstraint.m */,
+				A469E95321749EE900174EAD /* MASConstraintMaker.h */,
+				A469E95421749EE900174EAD /* MASConstraintMaker.m */,
+				A469E95521749EE900174EAD /* MASLayoutConstraint.h */,
+				A469E95621749EE900174EAD /* MASLayoutConstraint.m */,
+				A469E95721749EE900174EAD /* Masonry.h */,
+				A469E95821749EE900174EAD /* MASUtilities.h */,
+				A469E95921749EE900174EAD /* MASViewAttribute.h */,
+				A469E95A21749EE900174EAD /* MASViewAttribute.m */,
+				A469E95B21749EE900174EAD /* MASViewConstraint.h */,
+				A469E95C21749EE900174EAD /* MASViewConstraint.m */,
+				A469E95D21749EE900174EAD /* NSArray+MASAdditions.h */,
+				A469E95E21749EE900174EAD /* NSArray+MASAdditions.m */,
+				A469E95F21749EE900174EAD /* NSArray+MASShorthandAdditions.h */,
+				A469E96021749EE900174EAD /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A469E96121749EE900174EAD /* NSLayoutConstraint+MASDebugAdditions.m */,
+				A469E96221749EE900174EAD /* View+MASAdditions.h */,
+				A469E96321749EE900174EAD /* View+MASAdditions.m */,
+				A469E96421749EE900174EAD /* View+MASShorthandAdditions.h */,
+				A469E96521749EE900174EAD /* ViewController+MASAdditions.h */,
+				A469E96621749EE900174EAD /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		A4AA95CE21702F7500902BBD = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +159,7 @@
 		A4AA95D921702F7600902BBD /* DDYLockView */ = {
 			isa = PBXGroup;
 			children = (
+				A469E94D21749EE900174EAD /* Masonry */,
 				A469E90D2170A7CA00174EAD /* DDYLocalAuth */,
 				A4AA960321702FF100902BBD /* DDYNumberLockView */,
 				A4AA960221702FE100902BBD /* DDYGestureLockView */,
@@ -102,6 +185,16 @@
 		A4AA960221702FE100902BBD /* DDYGestureLockView */ = {
 			isa = PBXGroup;
 			children = (
+				A469E94521746CE100174EAD /* DDYGestureLockConfig.h */,
+				A469E94421746CE000174EAD /* DDYGestureLockConfig.m */,
+				A469E9412174652A00174EAD /* DDYGestureCircle.h */,
+				A469E9422174652A00174EAD /* DDYGestureCircle.m */,
+				A469E9472174778F00174EAD /* DDYGestureLockView.h */,
+				A469E9482174778F00174EAD /* DDYGestureLockView.m */,
+				A469E94A217477AD00174EAD /* DDYGestureInfoView.h */,
+				A469E94B217477AD00174EAD /* DDYGestureInfoView.m */,
+				A469E91C2174218600174EAD /* DDYGestureLockSettingVC.h */,
+				A469E91D2174218600174EAD /* DDYGestureLockSettingVC.m */,
 				A4AA9617217035D400902BBD /* DDYGestureLock.strings */,
 			);
 			path = DDYGestureLockView;
@@ -188,10 +281,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A469E96C21749EE900174EAD /* MASViewConstraint.m in Sources */,
+				A469E9432174652A00174EAD /* DDYGestureCircle.m in Sources */,
+				A469E96B21749EE900174EAD /* MASViewAttribute.m in Sources */,
+				A469E94621746CE100174EAD /* DDYGestureLockConfig.m in Sources */,
 				A469E9132170A7CA00174EAD /* DDYLocalAuthTool.m in Sources */,
+				A469E9492174778F00174EAD /* DDYGestureLockView.m in Sources */,
+				A469E96721749EE900174EAD /* MASCompositeConstraint.m in Sources */,
+				A469E96921749EE900174EAD /* MASConstraintMaker.m in Sources */,
+				A469E96F21749EE900174EAD /* View+MASAdditions.m in Sources */,
+				A469E96A21749EE900174EAD /* MASLayoutConstraint.m in Sources */,
+				A469E97021749EE900174EAD /* ViewController+MASAdditions.m in Sources */,
+				A469E96821749EE900174EAD /* MASConstraint.m in Sources */,
 				A4AA960121702FDF00902BBD /* ViewController.m in Sources */,
+				A469E94C217477AD00174EAD /* DDYGestureInfoView.m in Sources */,
+				A469E96D21749EE900174EAD /* NSArray+MASAdditions.m in Sources */,
+				A469E96E21749EE900174EAD /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A4AA960021702FDF00902BBD /* main.m in Sources */,
 				A4AA95FB21702FDF00902BBD /* AppDelegate.m in Sources */,
+				A469E91E2174218600174EAD /* DDYGestureLockSettingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

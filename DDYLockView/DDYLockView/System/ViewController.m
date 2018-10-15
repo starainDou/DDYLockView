@@ -1,4 +1,5 @@
 #import "ViewController.h"
+#import "DDYGestureLockSettingVC.h"
 
 #ifndef DDYTopH
 #define DDYTopH (self.navigationController.navigationBar.frame.size.height + [[UIApplication sharedApplication] statusBarFrame].size.height)
@@ -72,14 +73,11 @@
     } else if (sender.tag == 101) {
         
     } else if (sender.tag == 102) {
-        [self changeLanguage];
+        
     }
-}
-
-
-
-- (void)changeLanguage {
     
+    [self.navigationController pushViewController:[[DDYGestureLockSettingVC alloc] init] animated:YES];
 }
+
 
 @end
