@@ -23,7 +23,7 @@ static inline UIColor *lockViewRGBA(float r, float g, float b, float a) {
         self.circleOutSelectedBorderColor = lockViewRGBA(35., 180., 250., 1);
         self.circleOutErrorBorderColor = lockViewRGBA(250., 80., 90., 1);
         
-        self.circleInNormalColor = lockViewRGBA(150., 150., 150., 1);
+        self.circleInNormalColor = [UIColor clearColor];
         self.circleInSelectedColor = lockViewRGBA(35., 180., 250., 1);
         self.circleInErrorColor = lockViewRGBA(250., 80., 90., 1);
         
