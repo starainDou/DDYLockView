@@ -11,7 +11,6 @@
 "LockVerifyDrawOld" = "请输入原手势密码";
 
 /** 登录 */
-"LockLoginTitle" = "手势密码登录";
 "LockLoginDraw" = "请输入手势密码";
 "LockLoginError" = "手势密码输入错误";
 "LockLoginForget" = "忘记手势密码";

@@ -1,5 +1,4 @@
 #import "DDYGestureInfoView.h"
-#import "DDYGestureCircle.h"
 
 @interface DDYGestureInfoView ()
 
@@ -39,6 +38,16 @@
         circle.tag = idx + 1;
         circle.frame = CGRectMake(x, y, itemViewWH, itemViewWH);
     }];
+}
+
+- (void)changeCirclesWithSelectedArray:(NSArray *)selectedArray {
+    for (DDYGestureCircle *selectedCircle in selectedArray) {
+        for (DDYGestureCircle *infoCircle in self.subviews) {
+            if (infoCircle.tag == selectedCircle.tag) {
+                infoCircle.state = DDYGestureCircleStateSelected;
+            }
+        }
+    }
 }
 
 @end

@@ -1,5 +1,6 @@
 #import "ViewController.h"
 #import "DDYGestureLockSettingVC.h"
+#import "DDYGestureLockLoginVC.h"
 
 #ifndef DDYTopH
 #define DDYTopH (self.navigationController.navigationBar.frame.size.height + [[UIApplication sharedApplication] statusBarFrame].size.height)
@@ -69,14 +70,13 @@
 
 - (void)handleBtn:(UIButton *)sender {
     if (sender.tag == 100) {
-        
+        [self.navigationController pushViewController:[[DDYGestureLockSettingVC alloc] init] animated:YES];
     } else if (sender.tag == 101) {
         
     } else if (sender.tag == 102) {
-        
+        [self presentViewController:[[DDYGestureLockLoginVC alloc] init] animated:YES completion:^{ }];
     }
     
-    [self.navigationController pushViewController:[[DDYGestureLockSettingVC alloc] init] animated:YES];
 }
 
 

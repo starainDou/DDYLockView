@@ -88,7 +88,11 @@
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     if (self.selectedArray.count && self.gestureBlock) {
-        self.gestureBlock(self.selectedArray);
+        NSMutableString *gestureStr = [NSMutableString string];
+        for (DDYGestureCircle *circle in self.selectedArray) {
+            [gestureStr appendFormat:@"%@", @(circle.tag)];
+        }
+        self.gestureBlock(self.selectedArray, gestureStr);
     }
     // 重置
     if ([self.selectedArray firstObject].state == DDYGestureCircleStateError) {
@@ -105,14 +109,14 @@
 - (void)resetGesture {
     @synchronized (self) {
         // 手势完毕,选中的圆回归普通状态
-        [self changeSelectedCirclesWithSate:DDYGestureCircleStateNormal];
+        [self changeCirclesWithSate:DDYGestureCircleStateNormal];
         // 清空保存选中的数组
         [self.selectedArray removeAllObjects];
     }
 }
 
 #pragma mark 改变选中数组子控件状态
-- (void)changeSelectedCirclesWithSate:(DDYGestureCircleState)state {
+- (void)changeCirclesWithSate:(DDYGestureCircleState)state {
     [self.selectedArray enumerateObjectsUsingBlock:^(DDYGestureCircle *circle, NSUInteger idx, BOOL *stop) {
         circle.state = state;
         if (state == DDYGestureCircleStateNormal) circle.angle = 0; // 清空方向
