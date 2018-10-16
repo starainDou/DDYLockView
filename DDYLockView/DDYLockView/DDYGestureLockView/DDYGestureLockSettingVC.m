@@ -91,6 +91,7 @@
     } else if (self.firstSelectedValue.length < self.config.circleLeastNumber) {
         self.firstSelectedValue = selectedValue;
         [self.tipLabel showNormalMessage:NSLocalizedStringFromTable(@"LockSettingDrawAgain", @"DDYGestureLock", nil)];
+        [self.infoView changeCirclesWithSelectedArray:seletedArray];
     } else if ([selectedValue isEqualToString:self.firstSelectedValue]) {
         [[NSUserDefaults standardUserDefaults] setObject:selectedValue forKey:lockEndKey];
         [self.tipLabel showNormalMessage:NSLocalizedStringFromTable(@"LockSettingSuccess", @"DDYGestureLock", nil)];
@@ -101,6 +102,7 @@
         });
     } else {
         self.firstSelectedValue = nil;
+        [self.infoView changeCirclesWithSelectedArray:nil];
         [self.tipLabel showWarningAndShakeMessage:NSLocalizedStringFromTable(@"LockSettingDifferent", @"DDYGestureLock", nil)];
     }
 }

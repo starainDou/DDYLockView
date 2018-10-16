@@ -20,6 +20,7 @@
 - (void)addCircleView {
     for (int i = 0; i < 9; i++) {
         DDYGestureCircle *circle = [[DDYGestureCircle alloc] initWithConfig:self.config];
+        circle.type = DDYGestureCircleTypeInfo;
         circle.tag = i + 1;
         [self addSubview:circle];
     }
@@ -41,6 +42,12 @@
 }
 
 - (void)changeCirclesWithSelectedArray:(NSArray *)selectedArray {
+    if (!selectedArray || !selectedArray.count) {
+        [self.subviews enumerateObjectsUsingBlock:^(DDYGestureCircle *circle, NSUInteger idx, BOOL *stop) {
+            circle.state = DDYGestureCircleStateNormal;
+        }];
+        return;
+    }
     for (DDYGestureCircle *selectedCircle in selectedArray) {
         for (DDYGestureCircle *infoCircle in self.subviews) {
             if (infoCircle.tag == selectedCircle.tag) {

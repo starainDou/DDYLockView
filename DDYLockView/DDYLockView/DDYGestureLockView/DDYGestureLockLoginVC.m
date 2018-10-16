@@ -169,7 +169,7 @@
                 NSLog(@"iOS8重启才能恢复使用,iOS9+停用指定时间后输入密码");
                 break;
             default:
-                NSLog(@"其他原因的无法完成验证，看枚举解释");
+                NSLog(@"其他原因的无法完成验证，看枚举解释 state:%ld", state);
                 break;
         }
     }];

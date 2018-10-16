@@ -53,7 +53,7 @@
 
 #pragma mark 画内实心圆
 - (void)drawInCircleWithCtx:(CGContextRef)ctx rect:(CGRect)rect {
-    CGFloat radio = self.config.circleInRadio;
+    CGFloat radio = (self.type == DDYGestureCircleTypeGesture) ? self.config.circleInRadio : 1;
     CGFloat circleX = rect.size.width/2 * (1-radio) + self.config.circleOutBorderWidth;
     CGFloat circleY = rect.size.height/2 * (1-radio) + self.config.circleOutBorderWidth;
     CGFloat circleW = rect.size.width*radio - self.config.circleOutBorderWidth*2;
@@ -126,6 +126,7 @@
             color = self.config.trangleSelectedColor;
             break;
         case DDYGestureCircleStateError:
+         
             color = self.config.trangleErrorColor;
             break;
     }
